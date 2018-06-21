@@ -1,12 +1,15 @@
 ---
-layout: default
+layout: page
+css: ["index.css"]
 ref: index
+title: Welcome
 lang: en
 ---
-
 <div class="home">
-
-  <h1 class="page-heading">Posts</h1>
+<table>
+<tbody>
+<tr>
+<td style="vertical-align:top"> <h1 class="page-heading">Latest Posts</h1>
 
   <ul class="post-list">
     {% assign posts=site.posts | where:"lang", page.lang %}
@@ -21,6 +24,26 @@ lang: en
     {% endfor %}
   </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p></td>
+<td style="vertical-align:top"> <h1 class="page-heading">Latest Videos</h1>
+
+  <ul class="post-list">
+    {% assign posts=site.posts | where:"lang", page.lang %}
+    {% for post in posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <iframe width="280" height="155" src="https://www.youtube.com/embed/LlKTs2BWQmc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p></td>
+</tr>
+</tbody>
+</table>
+ 
 
 </div>
