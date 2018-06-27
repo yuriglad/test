@@ -48,9 +48,6 @@
   <a href="{{ pages[3].url | prepend: site.baseurl }}" class="{{ pages[3].lang }}">{{ pages[3].lang }}</a>  
    <a href="{{ pages[4].url | prepend: site.baseurl }}" class="{{ pages[4].lang }}">{{ pages[4].lang }}</a> 
   <a href="{{ pages[2].url | prepend: site.baseurl }}" class="{{ pages[2].lang }}">{{ pages[2].lang }}</a>  
-
- 
-  <a href="{{ pages[5].url | prepend: site.baseurl }}" class="{{ pages[5].lang }}">{{ pages[5].lang }}</a> 
    <a href="{{ pages[6].url | prepend: site.baseurl }}" class="{{ pages[6].lang }}">{{ pages[6].lang }}</a> 
    </div>
                     <div class="social-icons">
@@ -96,9 +93,9 @@
           <div class="userView">
             <div class="background"></div>
             <a href="{{site.github_profile}}" target="_blank"><img class="circle z-depth-2" src="/assets/images/userpic.png"></a>
-            <span class="white-text name">Yuri Gladkov</span>
-            <span class="white-text email">Guitarist • Producer • Composer</span>
             
+            <span class="white-text name">{{site.title[page.lang]}}</span>
+            <span class="white-text email">{{site.description[page.lang]}}</span>          
           </div>
         </li>
           {% assign pages=site.pages | where:"lang", page.lang %}

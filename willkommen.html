@@ -5,30 +5,29 @@ ref: index
 title: Willkommen
 lang: de
 ---
-
 <div class="home">
+	<div style="margin-left:25px">
+Ich spiele seit 1995 Gitarre, studierte in verschiedenen großen und nicht großen Musikschulen (lese meine Artikel über Berklee, London Music School und CAVEM), aber meistens autodidaktisch. Obwohl ich viel Spaß hatte, wurde mir klar, dass ich besser woanders ein stabiles Einkommen verdienen würde (Link zu meinem Artikel über Musikgeschäfte), nicht in Musik, also behielt ich es als Hobby.
+Wie auch immer, ich lerne gerne neue Solos durch Transkription (Link zu Transkriptionen) anstatt Gitarrenunterricht zu kaufen, weil ich so einfach die Phrase lerne, die ich mag (und das ist im Solo verwendbar), nicht irgendeine abstrakte Übung.
+Eines Tages wurde mir der Gitarrensound langweilig, also habe ich die Stimmung geändert -> das gab mir neue Horizonte zum Erkunden.
+Lass es laufen...
+  </div>
+  <br>
+  <div style="margin-left:25px;font-weight:bold">
+Letzte News:
+  </div>
+  <ul class="post-list">
+    {% assign posts=site.posts | where:"lang", page.lang %}
+    {% for post in posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-<p>Ich bin ein Softwareentwickler spezialisiert in folgenden Bereichen:</p>
-<ul>
-<li>Fullstack Java und .NET</li>
-<li>Architektur und EAI</li>
-<li>Cloud (AWS, Azure and Google), Serverless</li>
-<li>Test: Einheitstests, Integrationstests</li>
-<li>Anforderungsanalyse und Projektsteuerung</li>
-</ul>
-<p>Erfahrung habe ich in folgenden Industriesektoren:</p>
-<ul>
-<li>Finanz: Kredit / Inv. Fonds / Abstimmung / Settlement / div. Back-Office (FileNet) / SWIFT Messaging</li>
-<li>Gesundheit & Pharma: HL7-Standard/E-Präskription/Befunde/Aufträge/Billing</li>
-<li>Energie: Abrechnung der Konzessionsabgaben</li>
-<li>Staat/Kanton: Businessanalyse und Konfiguration der ERP-Systeme für Kanton</li>
-</ul>
-<p>Ich spreche fliessend Englisch, Deutsch, Französisch, Spanisch, Italienisch, Luxemburgisch und Russisch</p>
-<p>Hier ist die Liste der Kunden, mit denen ich in den letzten 10 Jahren gearbeitet habe:</p>
-<p>EWE, IBM, Sybase, BGL-BNP Paribas, PostFinance, Landis&Gear, Unilabs, Kanton Wallis, Accenture, Ernst&Young, Commerzbank</p>
-<p>Meine Kenntnisse umfassen Java (JEE), Java frameworks, .NET(C#), SQL Development, MS SQL Server, Oracle DB, DB2, Microservices, Cloud (AWS, Azure and Google), Serverless, Talend ESB, Mule ESB, Oracle JCAPS, Apache Camel, CI/CL, Testing, FileNet, HL7.</p>
-<p>Wenn ich keine Software entwickle, spiele ich gerne Gitarre.</p>
-<img src = "/assets/images/combined_clients.jpg" alt = "Clienti" />
-
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        {{ post.excerpt }}
+      </li>
+    {% endfor %}
+  </ul>
 
 </div>

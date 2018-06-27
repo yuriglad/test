@@ -44,22 +44,22 @@ sass:
 future: true
 # Site settings
 title:
-  en: Yuri Gladkov - Java/.NET Developer
-  fr: Iouri Gladkov - Developpeur Java/.NET
-  de: Yuri Gladkov - Java/.NET Entwickler
-  lu: Iouri Gladkov - Java/.NET Entwéckler
-  es: Yuri Gladkov - Desarollo Java/.NET
-  it: Yuri Gladkov - Sviluppo Java/.NET
-  ru: Yuri Gladkov - разработчик Java/.NET
+  en: Yuri Gladkov
+  fr: Yuri Gladkov
+  de: Yuri Gladkov
+  lu: Yuri Gladkov
+  es: Yuri Gladkov
+  it: Yuri Gladkov
+  ru: Юрий Гладков
 email: cyberglad@gmail.com
 description:
-  en: Yuri Gladkov - Java/.NET Developer
-  fr: Iouri Gladkov - Developpeur Java/.NET
-  de: Yuri Gladkov - Java/.NET Entwickler
-  lu: Iouri Gladkov - Java/.NET Entwéckler
-  es: Yuri Gladkov - Desarollo Java/.NET
-  it: Yuri Gladkov - Sviluppo Java/.NET
-  ru: Yuri Gladkov - разработчик Java/.NET
+  en: Guitarist • Producer • Composer
+  fr: Guitariste • Producteur • Compositeur
+  de: Gitarrist • Produzent • Komponist
+  lu: Gittarist • Produzent • Komponist
+  es: Guitarrista • Productor • Compositor
+  it: Chitarrista • Produttore • Compositore
+  ru: Гитарист • Продюсер • Композитор
 index:
   en:
   fr: accueil.html
@@ -86,13 +86,13 @@ t:
       url: "/"
     about:
       name: "About"
-      url: "/contact"
+      url: "/about"
     experience:
       name: "Video"
       url: "/video"
-    cv:
-      name: "Resume"
-      url: "/resume_en"
+    transcripts:
+      name: "Transcripts"
+      url: "/transcripts"
     contact:
       name: "Contact"
       url: "/contact"
@@ -106,9 +106,9 @@ t:
     experience:
       name: "Parcours professionel"
       url: "/projets"
-    cv:
-      name: "CV"
-      url: "/resume"
+    transcripts:
+      name: "Transcripts"
+      url: "/transcripts_fr"
     contact:
       name: "Contacter"
       url: "/contact_fr"
@@ -122,9 +122,9 @@ t:
     experience:
       name: "Berufserfahrung"
       url: "/projekte"
-    cv:
-      name: "CV"
-      url: "/resume_en"
+    transcripts:
+      name: "Transcripts"
+      url: "/transcripts_de"
     contact:
       name: "Kontakt"
       url: "/contact"
@@ -138,9 +138,9 @@ t:
     experience:
       name: "Esperienza"
       url: "/projects"
-    cv:
-      name: "CV"
-      url: "/resume"
+    transcripts:
+      name: "Transcripts"
+      url: "/transcripts"
     contact:
       name: "Contattare"
       url: "/contact"
@@ -154,9 +154,9 @@ t:
     experience:
       name: "Esperienza"
       url: "/projects"
-    cv:
-      name: "CV"
-      url: "/resume"
+    transcripts:
+      name: "Transcripts"
+      url: "/transcripts"
     contact:
       name: "Contactar"
       url: "/contact"
