@@ -21,7 +21,7 @@ repository: cyberglad
 paginate: 5
 
 # MatJek specific configurations
-github_profile: "https://cyberglad.github.io"
+github_profile: "https://yuriglad.github.io"
 user: "Yuri Gladkov"
 user_email: "cyberglad@gmail.com"
 contact_url: "https://goo.gl/tVljbV"
@@ -88,8 +88,8 @@ t:
       name: "About"
       url: "/contact"
     experience:
-      name: "Work Experience"
-      url: "/projects"
+      name: "Video"
+      url: "/video"
     cv:
       name: "Resume"
       url: "/resume_en"
