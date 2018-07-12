@@ -2141,8 +2141,7 @@ blockquote{
 }
 .button.button-icon{
     padding:0;
-    margin-right:.2em;
-    color: #{{ site.data.template.color.primary }};
+    margin-right:.2em
 }
 .button.button-red{
     background-color:#AF2222;

@@ -94,18 +94,18 @@ t:
     home:
       name: "Home"
       url: "/"
-    news:
+    about:
+      name: "About"
+      url: "/about"
+    experience:
       name: "Video"
       url: "/video"
-    experience:
-      name: "Gear"
-      url: "/gear"
     transcripts:
-      name: "Transcriptions"
-      url: "/transcription"
+      name: "Transcripts"
+      url: "/transcripts"
     contact:
-      name: "Music"
-      url: "/music"
+      name: "Contact"
+      url: "/contact"
   fr:
     home:
       name: "Accueil"

@@ -1,8 +1,5 @@
 ---
 layout: default
-ref: index
-title: Welcome
-lang: en
 ---
 
 <div class="home">
@@ -13,7 +10,7 @@ lang: en
     {% for post in site.posts %}
       <li>
         <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.excerpt  }}</a>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </li>
     {% endfor %}
   </ul>

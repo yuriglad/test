@@ -9,52 +9,30 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                
-                {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-                        <a href="{{ pages[1].url | prepend: site.baseurl }}" class="navbar-brand">{{ pages[1].lang }}</a>  
-                        <a href="{{ pages[0].url | prepend: site.baseurl }}" class="navbar-brand">{{ pages[0].lang }}</a>  
-                        <a href="{{ pages[3].url | prepend: site.baseurl }}" class="navbar-brand">{{ pages[3].lang }}</a>  
-                        <a href="{{ pages[4].url | prepend: site.baseurl }}" class="navbar-brand">{{ pages[4].lang }}</a> 
-                        <a href="{{ pages[2].url | prepend: site.baseurl }}" class="navbar-brand">{{ pages[2].lang }}</a>  
-                        <a href="{{ pages[6].url | prepend: site.baseurl }}" class="navbar-brand">{{ pages[6].lang }}</a> 
+                <a class="navbar-brand page-scroll" href="#page-top">{{site.title}}</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> 
-         
-                <ul class="nav navbar-nav navbar-right">     
-                       
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
-                    {% for menu in site.t[page.lang] %}
-                    {% assign loopindex = forloop.index %}
-                    {% if loopindex == 1 %}
                     <li>
-                        <a class="page-scroll" href="#services">{{ menu[1].name }}</a>
+                        <a class="page-scroll" href="#services">Transcripts</a>
                     </li>
-                    {% endif %}
-                    {% if loopindex == 2 %}
                     <li>
-                        <a class="page-scroll" href="#portfolio">{{ menu[1].name }}</a>
+                        <a class="page-scroll" href="#portfolio">News</a>
                     </li>
-                    {% endif %}
-                    {% if loopindex == 3 %}
                     <li>
-                        <a class="page-scroll" href="#about">{{ menu[1].name }}</a>
+                        <a class="page-scroll" href="#about">About</a>
                     </li>
-                    {% endif %}
-                    {% if loopindex == 4 %}
                     <li>
-                        <a class="page-scroll" href="#team">{{ menu[1].name }}</a>
+                        <a class="page-scroll" href="#team">Video</a>
                     </li>
-                    {% endif %}
-                    {% if loopindex == 5 %}
                     <li>
-                        <a class="page-scroll" href="#contact">{{ menu[1].name }}</a>
+                        <a class="page-scroll" href="#contact">Contact</a>
                     </li>
-                    {% endif %}
-                    {% endfor %}
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -67,37 +45,9 @@
         <div class="container">
             <div class="intro-text">
 				<div class="intro-heading">Yuri Gladkov</div>
-                <div class="intro-lead-in">
-					
-					<a href="mail: cyberglad@gmail.com" class="button button-icon" title="mail: cyberglad@gmail.com">
-						<span class="text-primary">
-                        <i class="fa fa-envelope"></i>
-                        </span>
-                        </a>
-                         
-                        <a href="https://facebook.com/yuri.gladkov" class="button button-icon" title="facebook: yuri.gladkov">
-							<span class="text-primary">
-                        <i class="fa fa-facebook-square"></i>
-                        </span>
-                        </a>
-                        <a href="https://twitter.com/cyberglad" class="button button-icon" title="twitter: @cyberglad">
-							<span class="text-primary">
-                        <i class="fa fa-twitter-square"></i>
-                        </span>
-                        </a>
-                        <a href="https://github.com/cyberglad" class="button button-icon" title="github: cyberglad">
-							<span class="text-primary">
-                        <i class="fa fa-github-square"></i>
-                        </span>
-                        </a>
-                        <a href="https://www.linkedin.com/in/yuri-gladkov" class="button button-icon" title="linkedin: yuri-gladkov">
-							<span class="text-primary">
-                        <i class="fa fa-linkedin-square"></i>
-                        </span>
-                        </a>
-                       
-                </div>
-               
+                <div class="intro-lead-in">Guitarist • Producer • Composer</div>
+                
+                <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
             </div>
         </div>
     </header>
