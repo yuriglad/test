@@ -2141,7 +2141,8 @@ blockquote{
 }
 .button.button-icon{
     padding:0;
-    margin-right:.2em
+    margin-right:.2em;
+    color: #{{ site.data.template.color.primary }};
 }
 .button.button-red{
     background-color:#AF2222;
@@ -2363,9 +2364,6 @@ html:not(.platform-mac) .site-sidebar .block-blog{
     display:inline;
 }
 .social-icons{
-    position: fixed;
-    right: 0;
-    padding-right: 30px;
     display:inline;
 }
 .main-navigation .navigation-extend-bar .navigation-extend-button{
