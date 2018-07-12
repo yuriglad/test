@@ -1,23 +1,47 @@
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: https://y7kim.github.io
+baseurl: /agency-jekyll-theme/
 
 # Site settings
+title: Awesome Title
+email: your-email@domain.com
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+
 
 # Team names, titles and social links
 people:
-- name: Video1
+- name: Kay Garland
+  pic: 1
   position: Lead Designer
-  social: https://www.youtube.com/embed/LlKTs2BWQmc
-  
-- name: Video1
-  position: Lead Marketer
-  social: https://www.youtube.com/embed/LlKTs2BWQmc
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
 
-- name: Video1
+- name: Larry Parker
+  pic: 2
+  position: Lead Marketer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+
+- name: Diana Petersen
   pic: 3
   position: Lead Developer
-  social: https://www.youtube.com/embed/LlKTs2BWQmc
-  
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
+
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
@@ -37,152 +61,5 @@ address:
   - line: Beverly Hills, CA 90210
 
 # Build settings
+markdown: kramdown
 permalink: pretty
-
-# Build settings
-markdown: kramdown
-gems:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-seo-tag
-  - jekyll-sitemap
-exclude:
-  - Gemfile
-  - Gemfile.lock
-sass:
-  style: compressed
-future: true
-# Site settings
-title:
-  en: Yuri Gladkov
-  fr: Yuri Gladkov
-  de: Yuri Gladkov
-  lu: Yuri Gladkov
-  es: Yuri Gladkov
-  it: Yuri Gladkov
-  ru: Юрий Гладков
-email: cyberglad@gmail.com
-description:
-  en: Guitarist • Producer • Composer
-  fr: Guitariste • Producteur • Compositeur
-  de: Gitarrist • Produzent • Komponist
-  lu: Gittarist • Produzent • Komponist
-  es: Guitarrista • Productor • Compositor
-  it: Chitarrista • Produttore • Compositore
-  ru: Гитарист • Продюсер • Композитор
-index:
-  en:
-  fr: accueil.html
-  de: willkommen.html
-  lu: wellkomm.html
-  es: bienvenidos.html
-  it: benvenuti.html
-  ru: dobro.html
-feed:
-  en: /feed.xml
-  fr: /flux.xml
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: cyberglad
-github_username:  cyberglad
-
-# Build settings
-markdown: kramdown
-
-t:
-  en:
-    home:
-      name: "Home"
-      url: "/"
-    about:
-      name: "About"
-      url: "/about"
-    experience:
-      name: "Video"
-      url: "/video"
-    transcripts:
-      name: "Transcripts"
-      url: "/transcripts"
-    contact:
-      name: "Contact"
-      url: "/contact"
-  fr:
-    home:
-      name: "Accueil"
-      url: "/accueil/"
-    about:
-      name: "À propos"
-      url: "/contact_fr"
-    experience:
-      name: "Parcours professionel"
-      url: "/projets"
-    transcripts:
-      name: "Transcripts"
-      url: "/transcripts_fr"
-    contact:
-      name: "Contacter"
-      url: "/contact_fr"
-  de:
-    home:
-      name: "Willkommen"
-      url: "/"
-    about:
-      name: "Über mich"
-      url: "/contact"
-    experience:
-      name: "Berufserfahrung"
-      url: "/projekte"
-    transcripts:
-      name: "Transcripts"
-      url: "/transcripts_de"
-    contact:
-      name: "Kontakt"
-      url: "/contact"
-  it:
-    home:
-      name: "Benvenuti"
-      url: "/benvenuti/"
-    about:
-      name: "Sopra di me"
-      url: "/contact"
-    experience:
-      name: "Esperienza"
-      url: "/projects"
-    transcripts:
-      name: "Transcripts"
-      url: "/transcripts"
-    contact:
-      name: "Contattare"
-      url: "/contact"
-  es:
-    home:
-      name: "Bienvenidos"
-      url: "/bienvenidos/"
-    about:
-      name: "Sobre mi"
-      url: "/contact"
-    experience:
-      name: "Esperienza"
-      url: "/projects"
-    transcripts:
-      name: "Transcripts"
-      url: "/transcripts"
-    contact:
-      name: "Contactar"
-      url: "/contact"
-  lu:
-    home:
-      name: "Wëllkomm"
-      url: "/wellkomm/"
-    about:
-      name: "Iwwer mech"
-      url: "/contact"
-    experience:
-      name: "Berufserfahrung"
-      url: "/projects"
-    cv:
-      name: "CV"
-      url: "/resume"
-    contact:
-      name: "Kontaktéiren"
-      url: "/contact"
