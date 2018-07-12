@@ -1,9 +1,0 @@
----
-layout: post
-title:  "FGN Masterfield"
-date:   2017-12-13 01:30:13 +0800
-categories: video
-modal-id: 2
-lang: en
----
-<iframe width="300" height="220" src="http://www.youtube.com/embed/WO82PoAczTc" frameborder="0"> </iframe>
