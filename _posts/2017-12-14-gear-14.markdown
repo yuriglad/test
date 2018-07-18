@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Breedlove Focus"
+date:   2017-12-13 01:30:13 +0800
+categories: gear
+lang: en
+---
+This is my Breedlove Focus
+<br>
+<img src="https://breedlovemusic.com/images/uploads/instruments/Focus-Special-Edition_Front_Tilt_Horz.png" width="201" height="150"/>

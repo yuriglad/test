@@ -1,6 +1,11 @@
 source "https://rubygems.org"
 
-require 'json'
-require 'open-uri'
-versions = JSON.parse(open('https://pages.github.com/versions.json').read)
-gem 'github-pages', versions['github-pages'], group: :jekyll_plugins
+gem "jekyll", "~> 3.0.2"
+gem "jekyll-watch"
+gem "jekyll-sitemap"
+group :jekyll_plugins do
+  gem "jekyll-paginate-v2", "~> 1.7"
+  gem "jekyll-feed"
+end
+
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
