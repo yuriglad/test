@@ -3,6 +3,7 @@ layout: post
 title:  "Roman Bondarenko - FDJam"
 date:   2017-12-16 01:30:13 +0800
 categories: transcripts
+photo: http://www.zaburuev.ru/uploads/redactor_image/data/90/yBWWh2t_ORA.jpg
 excerpt: More
 lang: en
 ---

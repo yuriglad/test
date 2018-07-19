@@ -2,6 +2,7 @@
 layout: post
 title:  "Guitar of the day"
 date:   2017-12-16 01:30:13 +0800
+photo: https://images.reverb.com/image/upload/s--CiHtP9PR--/a_exif,c_limit,e_unsharp_mask:80,f_auto,fl_progressive,g_south,h_620,q_90,w_620/v1363883758/awnkphwmpcmy3rfdmnwn.jpg
 categories: gear
 lang: en
 ---

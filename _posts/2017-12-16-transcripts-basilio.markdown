@@ -3,6 +3,7 @@ layout: post
 title:  "Lari Basilio - Stay (acoustic arrangement)"
 date:   2017-12-17 01:30:13 +0800
 categories: transcripts
+photo: https://i.pinimg.com/originals/3e/c1/d8/3ec1d8fd9e73628e4b35e707db95a5dd.jpg
 excerpt: More
 lang: en
 ---

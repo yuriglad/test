@@ -2,7 +2,7 @@
 layout: post
 title:  "Greg Howe - Jam on new equipment 2015"
 date:   2017-12-17 01:30:13 +0800
-categories: transcripts
+categories: transcripts, video
 excerpt: More
 photo: https://guitarinteractivemagazine.com/media/386831/greg-howe.jpg?anchor=center&mode=crop&quality=70&width=758&height=505&bgcolor=ffffff&rnd=131203276820000000
 lang: en
