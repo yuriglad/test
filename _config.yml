@@ -10,4 +10,4 @@ description: A fantastic blog that is fantastic.
 twitter: holman
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-photo: https://guitarinteractivemagazine.com/media/386831/greg-howe.jpg
+photo: /images/yuri_quadrat.jpg
